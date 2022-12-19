@@ -9,3 +9,8 @@ This project processes airbnb listings csv file using pyspark in google cloud da
 #### -> partitions the data by no of ppl property can accomodate
 #### -> Write parquet files to GCS bucket
 
+## Analysis to processed files
+
+#### -> Read the stored parquet files
+#### -> Register the Dataframe as temp table
+#### -> Run SQL query on the Dataframe
